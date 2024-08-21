@@ -75,6 +75,7 @@ h1{
     border-radius: 5px;
     padding: 20px 70px 20px 20px ;
     justify-content: space-between;
+    width: 100%;
     display: flex;
 }
 .current-weather h2{
@@ -153,7 +154,6 @@ h1{
 @media (max-width: 500px){
     .weather-cards{
         display: flex;
-        flex-direction: column;
     }
     .weather-cards .card{
         width: auto;
